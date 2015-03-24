@@ -215,7 +215,7 @@ var g_supportsPPTHTML = SupportsPPTHTML(), g_scaleInFrame = true, gId="", g_bgSo
 var g_hasTrans = false, g_autoTrans = false, g_transSecs = 0;
 var g_animManager = null;
 
-var ENDSHOW_MESG="End of slide show, click to exit.", SCREEN_MODE="Frames", gIsEndShow=0, NUM_VIS_SLDS=21, SCRIPT_HREF="script.js", FULLSCR_HREF="fullscreen.htm";
+var ENDSHOW_MESG="End of slide show, click to exit.", SCREEN_MODE="Frames", gIsEndShow=0, NUM_VIS_SLDS=18, SCRIPT_HREF="script.js", FULLSCR_HREF="fullscreen.htm";
 var gCurSld = gPrevSld = 1, g_offset = 0, gNtsOpen = gHasNts = gOtlTxtExp = gNarrationPaused = false, gOtlOpen = true
 window.gPPTHTML=SupportsPPTHTML()
 var g_hideNav = 0;
@@ -299,10 +299,7 @@ var gDocTable = new Array(
    new hrefList("slide0015.htm", 1, 15),
    new hrefList("slide0016.htm", 1, 16),
    new hrefList("slide0017.htm", 1, 17),
-   new hrefList("slide0018.htm", 1, 18),
-   new hrefList("slide0019.htm", 1, 19),
-   new hrefList("slide0020.htm", 1, 20),
-   new hrefList("slide0021.htm", 1, 21)
+   new hrefList("slide0018.htm", 1, 18)
 );
 
 function ImgBtn( oId,bId,w,action )
@@ -797,9 +794,6 @@ makeSlide( 14,0,1);
 makeSlide( 15,0,1);
 makeSlide( 16,0,1);
 makeSlide( 17,0,1);
-makeSlide( 18,0,1);
-makeSlide( 19,0,1);
-makeSlide( 20,0,1);
 
 var END_SHOW_HREF         = "endshow.htm",
     OUTLINE_EXPAND_HREF   = "outline_expanded.htm",
@@ -807,7 +801,7 @@ var END_SHOW_HREF         = "endshow.htm",
     OUTLINE_NAVBAR_HREF  = "outline_navigation_bar.htm",
     NAVBAR_HREF           = "navigation_bar.htm",
     BLANK_NOTES_HREF	  = "blank_notes.htm",
-    NUM_VISIBLE_SLIDES    = 21,
+    NUM_VISIBLE_SLIDES    = 18,
     SIMPLE_FRAMESET       = 0,
     SLIDE_FRAME	        = "PPTSld",
     NOTES_FRAME           = "PPTNts",
@@ -828,7 +822,7 @@ var g_outline_href = OUTLINE_COLLAPSE_HREF;
 var g_fullscrMode = 0;	
 var FSWin = null;
 var gtmpstr = document.location.href;
-var g_baseURL = gtmpstr.substr(0, gtmpstr.lastIndexOf("/") ) + "/" + "tato_files";
+var g_baseURL = gtmpstr.substr(0, gtmpstr.lastIndexOf("/") ) + "/" + "tato-r1_files";
 var g_showoutline = 1;
 var g_shownotes = includeNotes;
 var g_currentSlide = INITSLIDENUM, g_prevSlide = INITSLIDENUM;
@@ -1271,25 +1265,25 @@ function LoadHTMLVersion() {
   if ( (msie || isnav ) && ( (os < 0 && ver >= 4 ) || ( os >= 0 && ver >= 5 ) || (os >=0 && msie < 0 && ver >= 4 ) )  ){
 	if ( msie >= 0 )  {
 		if ( isIEFiles > 0 )
-			ieArray( 21 );
+			ieArray( 18 );
 		else if ( isFLATFiles > 0 ){
 			/*if ( IsFramesMode() )
 				StatusPlay("This presentation is optimized for use with older versions of your browser. Since you are using a more recent version of Microsoft Internet Explorer or Netscape Navigator, consider optimizing this presentation to take advantage of your current version's advanced capabilities."); */
-			jpegArray( 21 );
+			jpegArray( 18 );
 		}
 		else
-			window.location.replace(  "tato_files/error.htm" );
+			window.location.replace(  "tato-r1_files/error.htm" );
 	}
 	else {
 		if ( isNAVFiles > 0 && ver < 5) 
-			navArray( 21 );
+			navArray( 18 );
 		else if ( isFLATFiles > 0 ) {
 			/* if ( IsFramesMode() )
 				StatusPlay("This presentation is optimized for use with older versions of your browser. Since you are using a more recent version of Microsoft Internet Explorer or Netscape Navigator, consider optimizing this presentation to take advantage of your current version's advanced capabilities."); */
-			jpegArray( 21 );
+			jpegArray( 18 );
 		}
 		else
-			window.location.replace(  "tato_files/error.htm" );
+			window.location.replace(  "tato-r1_files/error.htm" );
 	}
 }
 else {
@@ -1301,13 +1295,13 @@ else {
 	/*	if ( IsFramesMode() )
 			window.alert("This presentation contains content that your browser may not be able to display properly. This presentation is optimized for more recent versions of Microsoft Internet Explorer or Netscape Navigator." );
 	*/
-		window.location.replace(  "tato_files/error.htm" );
+		window.location.replace(  "tato-r1_files/error.htm" );
 	}		
 	/*
 	else if ( IsFramesMode()  && !isWebTV() )
 		StatusPlay( "This presentation contains content that your browser may not be able to show properly. This presentation was optimized for more recent versions of Microsoft Internet Explorer or Netscape Navigator." ); 
 	*/	
-	jpegArray ( 21 );
+	jpegArray ( 18 );
   }
   
 }

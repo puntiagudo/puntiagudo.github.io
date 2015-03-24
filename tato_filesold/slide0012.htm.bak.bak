@@ -1,0 +1,90 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=macintosh">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft Macintosh PowerPoint 11">
+<link id=Main-File rel=Main-File href="tato.html">
+<title>PowerPoint Presentation  -  Tato Walter Koch Rohtach (1886-1962)</title>
+<link title="Presentation File" type="application/powerpoint" rel=alternate
+href=tato.html.ppt>
+<script>
+if ( ! top.PPTPRESENTATION ) {
+	window.location.replace( "endshow.htm" );
+}
+</script>
+<meta name=Description content=Sep-6-06>
+<link rel=Stylesheet href="master08_stylesheet.css">
+<style media=print>
+<!--.sld
+	{left:0px !important;
+	width:6.0in !important;
+	height:4.15in !important;
+	font-size:76% !important;}
+-->
+</style>
+<script language=JavaScript src=script.js></script><script language=JavaScript><!--
+gId="slide0012.htm"
+if ( !parent.base.g_done && (parent.base.msie < 0 ) ) {
+	parent.base.g_done = 1;
+	document.location.replace( parent.base.GetHrefObj(parent.base.g_currentSlide).m_slideHref);
+}
+if( !IsNts() ) Redirect( "PPTSld", gId );
+//-->
+</script><script for=window event=onload language=JavaScript><!--
+if( !IsSldOrNts() ) return;
+if( MakeNotesVis() ) return;
+LoadSld( gId );
+playList();MakeSldVis(0);
+//-->
+</script>
+</head>
+
+<body style='margin:0px;background-color:black' onclick="DocumentOnClick(event)"
+onresize="_RSW()" onkeypress="_KPH(event)">
+
+<div id=SlideObj class=sld style='position:absolute;top:0px;left:0px;
+width:755px;height:522px;font-size:16px;background-color:white;clip:rect(0%, 101%, 101%, 0%);
+visibility:hidden'><img border=0 src="slide0012_image018.png" style='position:
+absolute;top:17.81%;left:53.37%;width:31.65%;height:41.37%'>
+
+<div class=O style='position:absolute;top:9.77%;left:69.27%;width:18.27%;
+height:3.06%'><span style='font-family:Arial;mso-ascii-font-family:Arial;
+font-size:58%;color:#1100BA'>Volcan Puntiagudo</span><span style='font-family:
+Arial;mso-ascii-font-family:Arial;color:#1100BA;mso-special-format:lastCR;
+display:none'><br>
+</span></div>
+
+<img border=0 src="slide0012_image019.png" style='position:absolute;top:17.81%;
+left:22.51%;width:30.86%;height:40.99%'><img border=0
+src="slide0012_image020.png" style='position:absolute;top:58.81%;left:53.37%;
+width:31.65%;height:37.73%'><img border=0 src="slide0012_image021.png"
+style='position:absolute;top:58.81%;left:22.51%;width:30.99%;height:38.12%'><img
+border=0 src="slide0012_image022.png" style='position:absolute;top:13.21%;
+left:60.0%;width:15.36%;height:23.94%'>
+
+<div class=O style='position:absolute;top:34.09%;left:85.96%;width:9.4%;
+height:3.06%'><span style='font-family:Arial;mso-ascii-font-family:Arial;
+font-size:58%;color:#1100BA'>Argentina</span></div>
+
+<img border=0 src="slide0012_image023.png" style='position:absolute;top:23.94%;
+left:90.46%;width:2.64%;height:25.86%'><img border=0
+src="slide0012_image024.png" style='position:absolute;top:33.9%;left:94.56%;
+width:4.37%;height:3.63%'><img border=0 src="slide0012_image025.png"
+style='position:absolute;top:51.34%;left:13.24%;width:41.98%;height:2.1%'>
+
+<div class=O style='position:absolute;top:46.36%;left:.92%;width:21.98%;
+height:3.06%'><span style='font-family:Arial;mso-ascii-font-family:Arial;
+font-size:58%;color:#1100BA'>Lake Todos los Santos</span></div>
+
+</div>
+
+<script language=JavaScript><!--
+function playList() {
+
+}
+//-->
+</script>
+</body>
+
+</html>
